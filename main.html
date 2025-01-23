@@ -16,7 +16,7 @@
 	        res(arr);
         }).then((arr)=>{
 	        setTimeout(()=>{
-		        let odd = arr.filter(x => x%2!=0);
+		        let odd = arr.filter(x => x%2==0);
 		        output.innerHTML = odd;
 	        },1000);
 	        return arr;
